@@ -30,6 +30,7 @@ Then run the Script
 
 Make sure that your main directory is organized in such way (name convention is not mandatory)
 
+```bash
 >main_directory_with_sprites
 	>run
 		>1.png
@@ -39,16 +40,17 @@ Make sure that your main directory is organized in such way (name convention is 
         >1.png
 	>jump
         >1.png
+```
 
 You can view only one main_directory_with_sprites at once
 
 
 # TODO
-*Centerize sprites (and adjust resolution automatically to screen size)
-*Add sprites scaling at runtime
-*Add better directory management, instead of specifying directory with animations inside code
-*Add direcotry manager (view more directories)
-*Fix color picker (its broken now)
+* Centerize sprites (and adjust resolution automatically to screen size)
+* Add sprites scaling at runtime
+* Add better directory management, instead of specifying directory with animations inside code
+* Add direcotry manager (view more directories)
+* Fix color picker (its broken now)
 
 
 # Releases
