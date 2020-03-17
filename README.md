@@ -8,7 +8,7 @@ Pygame Library
 
 
 # What is this?
-Basic Sprite viewer that animates images, allows to easly 
+Basic Sprite viewer that animates images, allows to fastly check sprites 
 
 
 # What it can do?
