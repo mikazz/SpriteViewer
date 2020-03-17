@@ -26,7 +26,7 @@ Basic Sprite viewer that animates images, allows to fastly check sprites
 Inside sprite_viewer (open with notepad or something) there is line
 DIR_PATH = "player"
 Change >player< according to your folder name
-Then run the Script
+Then run the Script sprite_viewer.py
 
 Make sure that your main directory is organized in such way (name convention is not mandatory)
 
