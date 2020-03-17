@@ -1,6 +1,7 @@
 # SpriteViewer
  Sprite Viewer made with Python [Pygame]
 
+![mark](examples/example_1.png)
 
 # Requirements
 Installed Python 3.x

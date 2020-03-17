@@ -146,7 +146,7 @@ def main():
     except FileNotFoundError:
         pass
 
-    scale = 5
+    scale = 5 # this needs to be redone
     my_sprite = MySprite(scale)
     my_group = pygame.sprite.Group(my_sprite)
     clock = pygame.time.Clock()
