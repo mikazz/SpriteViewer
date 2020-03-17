@@ -32,13 +32,13 @@ Make sure that your main directory is organized in such way (name convention is 
 
 ```bash
 >main_directory_with_sprites
-	>run
-		>1.png
-		>2.png
-        >3.png
-	>idle
+    >run
         >1.png
-	>jump
+        >2.png
+        >3.png
+    >idle
+        >1.png
+    >jump
         >1.png
 ```
 
