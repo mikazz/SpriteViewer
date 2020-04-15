@@ -5,12 +5,12 @@ import asset_loader
 __version__ = "v1.0 - 17.03.2020"
 __author__ = "mikazz"
 
-IMG_PATH = "player"
+IMG_PATH = "DATA"
 
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 900
 
-BACKGROUND_COLOR = pygame.Color('black')  # The background colod of our window
+BACKGROUND_COLOR = pygame.Color('black')  # The background color of our window
 
 
 class SpriteLoader:
