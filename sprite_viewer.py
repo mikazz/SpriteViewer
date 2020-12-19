@@ -1,3 +1,8 @@
+"""
+    Last tested on:
+    Python 3.7.4
+    Pygame 1.9.6
+"""
 import sys
 import pygame
 import asset_loader
@@ -9,7 +14,6 @@ IMG_PATH = "DATA"
 
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 900
-
 BACKGROUND_COLOR = pygame.Color('black')  # The background color of our window
 
 
@@ -117,11 +121,11 @@ class MySprite(pygame.sprite.Sprite):
             self.images = self.player_sprites.load(animation_name)
 
         if reflect_h:
-            # Transforms sprite horizontally up and down - (/\ X \/)
+            # Transforms sprite horizontally - up and down - (/\ X \/)
             self.images = [pygame.transform.flip(sprite, False, True) for sprite in self.images]
 
         if reflect_v:
-            # Transforms sprite vertically right and left - (<- Y ->)
+            # Transforms sprite vertically - right and left - (<- Y ->)
             self.images = [pygame.transform.flip(sprite, True, False) for sprite in self.images]
 
         if rewind:
